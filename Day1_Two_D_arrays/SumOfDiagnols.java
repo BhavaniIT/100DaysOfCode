@@ -19,6 +19,5 @@ public class SumOfDiagnols {
         }
 
         System.out.println(sum);
-    }
-    
+    }  
 }
