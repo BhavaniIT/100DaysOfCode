@@ -1,1 +1,5 @@
-Hi you are reading my file handilng code.
+100
+10
+10.5
+File name
+d
