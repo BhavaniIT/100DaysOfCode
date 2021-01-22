@@ -1,5 +1,2 @@
-Hi you are checking file handling which appends data.
-Appending works. Typing on second run
-That's it.
-Thank you.
-last check.
+Shows the importance of Buffered reader
+New line
