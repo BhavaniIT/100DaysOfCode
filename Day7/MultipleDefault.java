@@ -22,7 +22,7 @@ public class MultipleDefault implements Left,Right
     {   Left.super.m1(); //Left interface
         Right.super.m1(); //Right interface
         System.out.println("Own Default method");
-        Right.super.m1(); //Not necessary to be in first line
+        Right.super.m1(); 
     }
     public static void main(String[] args) 
     {
