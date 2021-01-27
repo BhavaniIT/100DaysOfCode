@@ -19,12 +19,15 @@ interface Right
 public class MultipleDefault implements Left,Right
 {
     public void m1()
-    {   //Left.super.m1(); => output:Left
-        //Right.super.m1(); => output: Right
+    {   Left.super.m1(); //Left interface
+        Right.super.m1(); //Right interface
         System.out.println("Own Default method");
+        Right.super.m1(); //Not necessary to be in first line
     }
     public static void main(String[] args) 
     {
+        //Left.super.m1(); => output:Left
+        //Right.super.m1(); => output: Right
         Left l = new MultipleDefault();
         l.m1(); //overridden
         Right r = new MultipleDefault();
