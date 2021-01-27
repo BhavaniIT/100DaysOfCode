@@ -14,8 +14,9 @@ class Employee
     @Override
     public String toString()
     {
-        return "Name:"+ name+"\n"+
-                "Id:" + id;
+        return "Id:" + id+" "+
+                "Name:"+ name;
+                
     }
 }
 
