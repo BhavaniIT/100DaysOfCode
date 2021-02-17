@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>CalculationServlet</name>
+	<name>ServletRedirectTypes</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -30,7 +30,7 @@
 	</natures>
 	<filteredResources>
 		<filter>
-			<id>1613567191345</id>
+			<id>1613567191404</id>
 			<name></name>
 			<type>30</type>
 			<matcher>
