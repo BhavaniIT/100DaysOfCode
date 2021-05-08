@@ -9,6 +9,5 @@ public class FunctionChaining
 
         System.out.println("andThen() first f1 and f2:"+f1.andThen(f2).apply(3));
         System.out.println("compose() first f2 and f1:"+f1.compose(f2).apply(3));
-
     }
 }

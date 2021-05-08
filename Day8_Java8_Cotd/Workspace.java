@@ -9,12 +9,6 @@ public class Workspace
         StringBuffer sb = new StringBuffer(scan.nextLine());
         int op2 = Integer.parseInt(sb.reverse().toString());
         int op1 = Integer.parseInt(sb.reverse().toString());
-        System.out.println(op1-op2);
-
-
-    
-
-        
-
+        System.out.println(op1-op2);  
     }
 }

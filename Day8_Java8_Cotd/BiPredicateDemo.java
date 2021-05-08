@@ -10,3 +10,6 @@ public class BiPredicateDemo
        System.out.println(p.test(10,20)); 
     }
 }
+
+
+

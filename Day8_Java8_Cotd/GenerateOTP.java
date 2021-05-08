@@ -18,3 +18,6 @@ public class GenerateOTP
         System.out.println("OTP generated:"+s.get());
     }
 }
+
+
+
